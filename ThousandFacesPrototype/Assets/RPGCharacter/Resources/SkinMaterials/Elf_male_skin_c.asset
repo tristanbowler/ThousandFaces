@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5c36361aa129b44f8938cd87aed020f, type: 3}
+  m_Name: Elf_male_skin_c
+  m_EditorClassIdentifier: 
+  headMaterial: {fileID: 2100000, guid: 43e7b1e9ef93c814cada84871c6578ca, type: 2}
+  chestMaterial: {fileID: 2100000, guid: 01e1a3a7a99dceb46b225583d6e3879a, type: 2}
+  legMaterial: {fileID: 2100000, guid: e916a05078242734ab9c88afce5e9bce, type: 2}
+  handMaterial: {fileID: 2100000, guid: c321dad98e9be2848a98e3ae6358f0ad, type: 2}
+  feetMaterial: {fileID: 2100000, guid: f429ea19292fa594c886ca27c0d65097, type: 2}
