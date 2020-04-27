@@ -481,7 +481,7 @@ AnimatorStateTransition:
     m_ConditionEvent: actionInProgress
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
-  m_DstState: {fileID: 1102495423014315270}
+  m_DstState: {fileID: 0}
   m_Solo: 0
   m_Mute: 0
   m_IsExit: 0
@@ -509,7 +509,7 @@ AnimatorStateTransition:
     m_ConditionEvent: actionInProgress
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
-  m_DstState: {fileID: 1102495423014315270}
+  m_DstState: {fileID: 0}
   m_Solo: 0
   m_Mute: 0
   m_IsExit: 0
@@ -537,7 +537,7 @@ AnimatorStateTransition:
     m_ConditionEvent: inCombat
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
-  m_DstState: {fileID: 1102495423014315270}
+  m_DstState: {fileID: 0}
   m_Solo: 0
   m_Mute: 0
   m_IsExit: 0
@@ -1094,7 +1094,7 @@ AnimatorStateMachine:
   m_ChildStateMachines:
   - serializedVersion: 1
     m_StateMachine: {fileID: 1107387646557570706}
-    m_Position: {x: 360, y: 132, z: 0}
+    m_Position: {x: 360, y: 130, z: 0}
   m_AnyStateTransitions:
   - {fileID: 1101194866320889714}
   m_EntryTransitions:
