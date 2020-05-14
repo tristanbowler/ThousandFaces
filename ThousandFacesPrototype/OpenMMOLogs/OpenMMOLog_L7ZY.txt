@@ -1,0 +1,90 @@
+[NetworkManager] AwakePriority 
+[NetworkManager] Awake mainZone 
+[AnchorManager] RegisterPortalAnchor ZoneAnchor 
+[AnchorManager] RegisterStartAnchor StartAnchor - Humans 
+[AnchorManager] RegisterStartAnchor StartAnchor - All 
+[AnchorManager] RegisterPortalAnchor PortalAnchor3 
+[AnchorManager] RegisterStartAnchor StartAnchor - Dwarves 
+[AnchorManager] RegisterPortalAnchor PortalAnchor2 
+[AnchorManager] RegisterPortalAnchor PortalAnchor1 
+[AnchorManager] RegisterStartAnchor StartAnchor - Elves 
+>>>>spawn subzones
+[NetworkManager] StartHost 
+[NetworkManager] OnServerConnect ID0 
+[NetworkManager] OnClientMessageRequestAuth ID0 Authenticated 
+[NetworkManager] ClientAuthenticate 
+[NetworkManager] OnClientConnect ID0 
+[NetworkManager] GetUserName ID0 NOT FOUND 
+[NetworkManager] LogoutUser ID0 
+[NetworkManager] RequestUserLogout ID0  
+[NetworkManager] OnServerMessageResponseAuth ID0 Authenticated 
+[DatabaseManager] FindWithQuery: OpenMMO.Database.TableUser (SELECT * FROM TableUser WHERE username=?)
+[DatabaseManager] Query: OpenMMO.Database.TableUser(SELECT * FROM TableUser WHERE deviceid=? AND email=? AND deleted=0)
+[DatabaseManager] Insert: OpenMMO.Database.TableUser
+[NetworkManager] RegisterUser highuintas 
+[NetworkManager] RequestUserRegister ID0 highuintas 
+[NetworkManager] OnServerMessageResponseUserRegister ID0 True 
+[NetworkManager] OnServerMessageResponse ID0 False Account Registration successful! 
+[DatabaseManager] FindWithQuery: OpenMMO.Database.TableUser (SELECT * FROM TableUser WHERE username=? AND banned=0 AND deleted=0)
+[NetworkManager] GetIsUserLoggedIn highuintas False 
+[DatabaseManager] FindWithQuery: OpenMMO.Database.TableUser (SELECT * FROM TableUser WHERE username=? AND password=? AND banned=0 AND deleted=0)
+[NetworkManager] LoginUser highuintas 
+[DatabaseManager] Query: OpenMMO.Database.TablePlayer(SELECT * FROM TablePlayer WHERE username=? AND deleted=0 AND banned=0)
+[NetworkManager] RequestUserLogin ID0 highuintas 
+[NetworkManager] OnServerMessageResponseUserLogin ID0 0 
+[NetworkManager] OnServerMessageResponse ID0 False  
+[DatabaseManager] FindWithQuery: OpenMMO.Database.TablePlayer (SELECT * FROM TablePlayer WHERE playername=?)
+[DatabaseManager] Query: OpenMMO.Database.TablePlayer(SELECT * FROM TablePlayer WHERE username=? AND deleted=0)
+[AnchorManager] GetArchetypeStartPositionAnchorName StartAnchor - Humans 
+[AnchorManager] GetStartAnchorPosition StartAnchor - Humans 
+[DatabaseManager] Execute: DELETE FROM TablePlayer WHERE playername=?
+[DatabaseManager] InsertOrReplace: OpenMMO.Database.TablePlayer
+[DatabaseManager] Execute: DELETE FROM TablePlayerLevel WHERE owner=?
+[DatabaseManager] InsertOrReplace: OpenMMO.Database.TablePlayerLevel
+[DatabaseManager] Execute: DELETE FROM TablePlayerZones WHERE playername=?
+[DatabaseManager] InsertOrReplace: OpenMMO.Database.TablePlayerZones
+[NetworkManager] RegisterPlayer highuintas test Human 
+[NetworkManager] RequestPlayerRegister ID0 test Human 
+[NetworkManager] OnServerMessageResponsePlayerRegister ID0 True 
+[NetworkManager] OnServerMessageResponse ID0 False Create player successful! 
+[NetworkManager] GetIsUserLoggedIn highuintas True 
+[DatabaseManager] FindWithQuery: OpenMMO.Database.TablePlayer (SELECT * FROM TablePlayer WHERE playername=? AND username=? AND banned=0 AND deleted=0)
+[DatabaseManager] FindWithQuery: OpenMMO.Database.TablePlayer (SELECT * FROM TablePlayer WHERE playername=?)
+[DatabaseManager] Query: OpenMMO.Database.TablePlayerLevel(SELECT * FROM TablePlayerLevel WHERE owner=?)
+[DatabaseManager] FindWithQuery: OpenMMO.Database.TablePlayer (SELECT * FROM TablePlayer WHERE playername=? AND deleted=0)
+[DatabaseManager] FindWithQuery: OpenMMO.Database.TablePlayerZones (SELECT * FROM TablePlayerZones WHERE playername=?)
+[DatabaseManager] Execute: UPDATE TablePlayer SET lastonline=? WHERE playername=?
+[DatabaseManager] Execute: UPDATE TableUser SET lastonline=? WHERE username=?
+[NetworkManager] LoginPlayer highuintas test 
+[NetworkManager] RequestPlayerLogin ID0 highuintas test 
+[NetworkManager] OnServerMessageResponsePlayerLogin ID0 True 
+[NetworkManager] OnServerMessageResponse ID0 False  
+[DatabaseManager] Execute: DELETE FROM TablePlayer WHERE playername=?
+[DatabaseManager] InsertOrReplace: OpenMMO.Database.TablePlayer
+[DatabaseManager] Execute: UPDATE TableUser SET lastonline=?, lastsaved=? WHERE username=?
+[DatabaseManager] Execute: DELETE FROM TablePlayerLevel WHERE owner=?
+[DatabaseManager] InsertOrReplace: OpenMMO.Database.TablePlayerLevel
+[DatabaseManager] Execute: DELETE FROM TablePlayerZones WHERE playername=?
+[DatabaseManager] InsertOrReplace: OpenMMO.Database.TablePlayerZones
+[DatabaseManager] SavePlayers_Network 1 
+[DatabaseManager] Invoking: SavePlayers
+[DatabaseManager] Query: OpenMMO.Database.TableUser(SELECT * FROM TableUser WHERE deleted=1)
+[DatabaseManager] Invoking: DeleteUsers
+[DatabaseManager] Execute: DELETE FROM TablePlayer WHERE playername=?
+[DatabaseManager] InsertOrReplace: OpenMMO.Database.TablePlayer
+[DatabaseManager] Execute: UPDATE TableUser SET lastonline=?, lastsaved=? WHERE username=?
+[DatabaseManager] Execute: DELETE FROM TablePlayerLevel WHERE owner=?
+[DatabaseManager] InsertOrReplace: OpenMMO.Database.TablePlayerLevel
+[DatabaseManager] Execute: DELETE FROM TablePlayerZones WHERE playername=?
+[DatabaseManager] InsertOrReplace: OpenMMO.Database.TablePlayerZones
+[DatabaseManager] SavePlayers_Network 1 
+[DatabaseManager] Invoking: SavePlayers
+[DatabaseManager] Execute: UPDATE TableUser SET lastonline=?, lastsaved=? WHERE username=?
+[DatabaseManager] Execute: UPDATE TableUser SET lastonline=? WHERE username=?
+[NetworkManager] LogoutPlayerAndUser ID0 test highuintas 
+[NetworkManager] OnServerDisconnect ID0 
+[DatabaseManager] CloseConnection
+[NetworkManager] OnStopServer 
+[AnchorManager] UnRegisterPortalAnchor PortalAnchor3 
+[AnchorManager] UnRegisterStartAnchor StartAnchor - All 
+[AnchorManager] UnRegisterStartAnchor StartAnchor - Humans 

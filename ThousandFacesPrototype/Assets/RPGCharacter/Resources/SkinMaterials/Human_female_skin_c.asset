@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5c36361aa129b44f8938cd87aed020f, type: 3}
+  m_Name: Human_female_skin_c
+  m_EditorClassIdentifier: 
+  headMaterial: {fileID: 2100000, guid: f5e9a7411aff1b044b51d1746eef207e, type: 2}
+  chestMaterial: {fileID: 2100000, guid: e4fa35c234e1c6248974fa3c6dcafc3c, type: 2}
+  legMaterial: {fileID: 2100000, guid: a4ec5586661f0024f98469ed29fa25e8, type: 2}
+  handMaterial: {fileID: 2100000, guid: c91846f5c55e2484fbdf2b5d305e615d, type: 2}
+  feetMaterial: {fileID: 2100000, guid: a980a5dd297c8884e9a56387962bac62, type: 2}
