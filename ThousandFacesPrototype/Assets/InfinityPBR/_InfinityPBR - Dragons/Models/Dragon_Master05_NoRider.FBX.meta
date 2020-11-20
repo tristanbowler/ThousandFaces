@@ -1,0 +1,340 @@
+fileFormatVersion: 2
+guid: 86f0f4a482ee34f66b4280eeae0a7790
+timeCreated: 1524704523
+licenseType: Store
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: Body
+    100002: Carapace
+    100004: //RootNode
+    100006: DragonRoot
+    100008: English DragonHead
+    100010: English DragonJaw
+    100012: English DragonLArm1
+    100014: English DragonLArm2
+    100016: English DragonLArm3
+    100018: English DragonLArmCollarbone
+    100020: English DragonLArmPalm
+    100022: English DragonLLeg1
+    100024: English DragonLLeg2
+    100026: English DragonLLeg3
+    100028: English DragonLLegPalm
+    100030: English DragonLW11
+    100032: English DragonLW12
+    100034: English DragonLW13
+    100036: English DragonLW21
+    100038: English DragonLW22
+    100040: English DragonLW23
+    100042: English DragonLW31
+    100044: English DragonLW32
+    100046: English DragonLW33
+    100048: English DragonLW41
+    100050: English DragonLW42
+    100052: English DragonLW43
+    100054: English DragonLWing1
+    100056: English DragonLWing2
+    100058: English DragonLWingCollarbone
+    100060: English DragonNeck1
+    100062: English DragonNeck2
+    100064: English DragonNeck3
+    100066: English DragonNeck4
+    100068: English DragonNeck5
+    100070: English DragonPelvis
+    100072: English DragonRArm1
+    100074: English DragonRArm2
+    100076: English DragonRArm3
+    100078: English DragonRArmCollarbone
+    100080: English DragonRArmPalm
+    100082: English DragonRibcage
+    100084: English DragonRLeg1
+    100086: English DragonRLeg2
+    100088: English DragonRLeg3
+    100090: English DragonRLegPalm
+    100092: English DragonRW11
+    100094: English DragonRW12
+    100096: English DragonRW13
+    100098: English DragonRW21
+    100100: English DragonRW22
+    100102: English DragonRW23
+    100104: English DragonRW31
+    100106: English DragonRW32
+    100108: English DragonRW33
+    100110: English DragonRW41
+    100112: English DragonRW42
+    100114: English DragonRW43
+    100116: English DragonRWing1
+    100118: English DragonRWing2
+    100120: English DragonRWingCollarbone
+    100122: English DragonSpine1
+    100124: English DragonSpine2
+    100126: English DragonSpine3
+    100128: English DragonTail1
+    100130: English DragonTail2
+    100132: English DragonTail3
+    100134: English DragonTail4
+    100136: English DragonTail5
+    100138: English DragonTail6
+    100140: English DragonTail7
+    100142: English DragonTail8
+    100144: English DragonTail9
+    100146: English DragonWthumbL
+    100148: English DragonWthumbR
+    100150: Fins
+    100152: HeadA
+    100154: HeadB
+    100156: HeadC
+    100158: LArmPoint
+    100160: LArmPoint01
+    100162: LHandToe1
+    100164: LHandToe12
+    100166: LHandToe2
+    100168: LHandToe21
+    100170: LHandToe3
+    100172: LHandToe31
+    100174: LLegPoint
+    100176: LLegPoint01
+    100178: LLegToe1
+    100180: LLegToe12
+    100182: LLegToe2
+    100184: LLegToe21
+    100186: LLegToe3
+    100188: LLegToe31
+    100190: RArmPoint
+    100192: RArmPoint01
+    100194: RHandToe1
+    100196: RHandToe12
+    100198: RHandToe2
+    100200: RHandToe21
+    100202: RHandToe3
+    100204: RHandToe31
+    100206: RLegPoint
+    100208: RLegPoint01
+    100210: RLegToe1
+    100212: RLegToe12
+    100214: RLegToe2
+    100216: RLegToe21
+    100218: RLegToe3
+    100220: RLegToe31
+    100222: Spikes
+    100224: TailA
+    100226: TailB
+    100228: Dummy001
+    100230: LArmPoint02
+    100232: LLegPoint02
+    100234: RArmPoint02
+    100236: RLegPoint02
+    400000: Body
+    400002: Carapace
+    400004: //RootNode
+    400006: DragonRoot
+    400008: English DragonHead
+    400010: English DragonJaw
+    400012: English DragonLArm1
+    400014: English DragonLArm2
+    400016: English DragonLArm3
+    400018: English DragonLArmCollarbone
+    400020: English DragonLArmPalm
+    400022: English DragonLLeg1
+    400024: English DragonLLeg2
+    400026: English DragonLLeg3
+    400028: English DragonLLegPalm
+    400030: English DragonLW11
+    400032: English DragonLW12
+    400034: English DragonLW13
+    400036: English DragonLW21
+    400038: English DragonLW22
+    400040: English DragonLW23
+    400042: English DragonLW31
+    400044: English DragonLW32
+    400046: English DragonLW33
+    400048: English DragonLW41
+    400050: English DragonLW42
+    400052: English DragonLW43
+    400054: English DragonLWing1
+    400056: English DragonLWing2
+    400058: English DragonLWingCollarbone
+    400060: English DragonNeck1
+    400062: English DragonNeck2
+    400064: English DragonNeck3
+    400066: English DragonNeck4
+    400068: English DragonNeck5
+    400070: English DragonPelvis
+    400072: English DragonRArm1
+    400074: English DragonRArm2
+    400076: English DragonRArm3
+    400078: English DragonRArmCollarbone
+    400080: English DragonRArmPalm
+    400082: English DragonRibcage
+    400084: English DragonRLeg1
+    400086: English DragonRLeg2
+    400088: English DragonRLeg3
+    400090: English DragonRLegPalm
+    400092: English DragonRW11
+    400094: English DragonRW12
+    400096: English DragonRW13
+    400098: English DragonRW21
+    400100: English DragonRW22
+    400102: English DragonRW23
+    400104: English DragonRW31
+    400106: English DragonRW32
+    400108: English DragonRW33
+    400110: English DragonRW41
+    400112: English DragonRW42
+    400114: English DragonRW43
+    400116: English DragonRWing1
+    400118: English DragonRWing2
+    400120: English DragonRWingCollarbone
+    400122: English DragonSpine1
+    400124: English DragonSpine2
+    400126: English DragonSpine3
+    400128: English DragonTail1
+    400130: English DragonTail2
+    400132: English DragonTail3
+    400134: English DragonTail4
+    400136: English DragonTail5
+    400138: English DragonTail6
+    400140: English DragonTail7
+    400142: English DragonTail8
+    400144: English DragonTail9
+    400146: English DragonWthumbL
+    400148: English DragonWthumbR
+    400150: Fins
+    400152: HeadA
+    400154: HeadB
+    400156: HeadC
+    400158: LArmPoint
+    400160: LArmPoint01
+    400162: LHandToe1
+    400164: LHandToe12
+    400166: LHandToe2
+    400168: LHandToe21
+    400170: LHandToe3
+    400172: LHandToe31
+    400174: LLegPoint
+    400176: LLegPoint01
+    400178: LLegToe1
+    400180: LLegToe12
+    400182: LLegToe2
+    400184: LLegToe21
+    400186: LLegToe3
+    400188: LLegToe31
+    400190: RArmPoint
+    400192: RArmPoint01
+    400194: RHandToe1
+    400196: RHandToe12
+    400198: RHandToe2
+    400200: RHandToe21
+    400202: RHandToe3
+    400204: RHandToe31
+    400206: RLegPoint
+    400208: RLegPoint01
+    400210: RLegToe1
+    400212: RLegToe12
+    400214: RLegToe2
+    400216: RLegToe21
+    400218: RLegToe3
+    400220: RLegToe31
+    400222: Spikes
+    400224: TailA
+    400226: TailB
+    400228: Dummy001
+    400230: LArmPoint02
+    400232: LLegPoint02
+    400234: RArmPoint02
+    400236: RLegPoint02
+    4300000: Spikes
+    4300002: HeadA
+    4300004: TailB
+    4300006: Body
+    4300008: TailA
+    4300010: Carapace
+    4300012: Fins
+    4300014: HeadB
+    4300016: HeadC
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Body
+    13700002: Carapace
+    13700004: Fins
+    13700006: HeadA
+    13700008: HeadB
+    13700010: HeadC
+    13700012: Spikes
+    13700014: TailA
+    13700016: TailB
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
