@@ -91,7 +91,13 @@ public class SFB_CharacterEquip : MonoBehaviour {
                             }
                         }
 
-                        PrefabUtility.UnpackPrefabInstance(child.gameObject,PrefabUnpackMode.Completely,InteractionMode.AutomatedAction);
+                        // Update in late october 2020 -- adding "if" statement  to fix the bug that suddenly appeared.
+                        Debug.Log("Child: " + child.gameObject.name);
+                        if (PrefabUtility.IsAnyPrefabInstanceRoot(child.gameObject))
+                        {
+                            PrefabUtility.UnpackPrefabInstance(child.gameObject,PrefabUnpackMode.Completely,InteractionMode.AutomatedAction);
+                        }
+                       
                         DestroyImmediate(thisBoneRoot, true);                   // Destroy the bones of the subChildRenderer
                     }
                 }
@@ -107,7 +113,10 @@ public class SFB_CharacterEquip : MonoBehaviour {
                 {
                     if (child.gameObject.name == "Dummy001")                    // If the name is Dummy001
                     {
-                        PrefabUtility.UnpackPrefabInstance(child.gameObject,PrefabUnpackMode.Completely,InteractionMode.AutomatedAction);
+                        if (PrefabUtility.IsAnyPrefabInstanceRoot(child.gameObject))
+                        {
+                            PrefabUtility.UnpackPrefabInstance(child.gameObject,PrefabUnpackMode.Completely,InteractionMode.AutomatedAction);
+                        }
                         DestroyImmediate(child.gameObject);                     // Destroy it
                     }
                 }
