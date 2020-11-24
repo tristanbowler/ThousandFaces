@@ -9,26 +9,28 @@ public class Startup {
 		if (EditorApplication.timeSinceStartup < 10) {
 			var loadedCount = EditorPrefs.GetInt("SFB_LoadedCount");
 			EditorPrefs.SetInt("SFB_LoadedCount", loadedCount + 1);
-			Debug.Log ("Don't forget to download the bonus content from the Asset Store!");
-			Debug.Log ("http://www.infinitypbr.com - Please Review & Rate!\nDelete Assets/InfinityPBR/Editor/SFB_LoadWelcome.cs to stop this message.");
-			Debug.Log ("Visit the Infinity PBR asset pages on the Asset Store to find links to bonus downloads for free. Find support, pre-release content and more at https://InfinityPBR.com");
-			Debug.Log ("Please review & rate your purchase.  Your positive review let's\nothers know they can trust our work.  We can't thank you enough!");
-			if (EditorPrefs.GetInt("SFB_Welcome2") != 1 && EditorPrefs.GetInt("SFB_LoadedCount2") % 7 == 0 )
+			Debug.Log ("Infinity Series: Please Register, Review & Rate!\nDelete Assets/SFBayStudios/Editor/SFB_LoadWelcome.cs to stop this message.");
+			Debug.Log ("Visit www.InfinityPBR.com to register your asset for entry into\nmonthly contest, bonus downloads, pre-release content & support.");
+			Debug.Log ("Please review & rate your purchase.  Let us know about your review\nfor entry into the 2nd monthly contest to win a FREE package of your choice!");
+			if (EditorPrefs.GetInt("SFB_Welcome") != 1 && EditorPrefs.GetInt("SFB_LoadedCount") % 7 == 0 )
 			{
 				var option = EditorUtility.DisplayDialogComplex(
-					"www.InfinityPBR.com: Please Register, Review & Rate!",
-					"Your Asset Store purchase contains more than what's included! In an effort to keep the download size down, all customization files and other bonus content (Concept Art etc), can be downloaded from my the bonus packs on the Asset Store. Visit the asset page to find the links to the free bonus packs.\n\nPlease review & rate your purchase.  Your review & rating helps others know how high quality our work is!",
-					"Go to InfinityPBR.com",
+					"Infinity Series: Please Register, Review & Rate!",
+					"Visit www.InfinityPBR.com to register your asset for entry into monthly contest, bonus downloads, pre-release content & support.\n\nPlease review & rate your purchase.  Let us know about your review for entry into the 2nd monthly contest to win a FREE package of your choice!",
+					"Go There Now",
 					"Remind Me Later",
 					"Don't Show Again");
 				switch (option) {
+					// Save Scene
 				case 0:
 					Application.OpenURL ("http://www.InfinityPBR.com/");
 					break;
+					// Save and Quit.
 				case 1:
 					break;
+					// Quit Without saving.
 				case 2:
-					EditorPrefs.SetInt("SFB_Welcome2", 1);
+					EditorPrefs.SetInt("SFB_Welcome", 1);
 					break;
 				default:
 					Debug.LogError("Unrecognized option.");

@@ -96,7 +96,7 @@ public class SFB_AudioManager : MonoBehaviour {
 	}
 
 	// Will play an audioClip once
-	void PlayAudio(string name){
+	public void PlayAudio(string name){
 		int index = AudioClipIndex (name);																		// Get the index of the named group
 		if (Random.Range (0, 100) >= (100 - audioClips [index].chanceOfPlaying)) {								// Only if a random chance is positive
 			float volume = audioClips [index].volume;															// grab the volume
