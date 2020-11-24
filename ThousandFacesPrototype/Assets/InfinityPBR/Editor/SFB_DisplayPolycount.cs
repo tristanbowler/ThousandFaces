@@ -5,7 +5,7 @@ using UnityEditor;
 
 public class SFB_DisplayPolycount : MonoBehaviour {
 
-	[MenuItem("Window/Infinity PBR/Polycount")]
+	[MenuItem("Window/Infinity PBR/Polycount %#p")]
 	static void ShowPolycount(){
 		int totalTriCount = 0;
 		int totalVertCount = 0;

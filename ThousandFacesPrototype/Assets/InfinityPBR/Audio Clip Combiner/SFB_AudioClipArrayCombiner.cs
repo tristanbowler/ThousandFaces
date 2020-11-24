@@ -1,7 +1,10 @@
 ﻿using System;
 using System.IO;
 using UnityEngine;
+using System.Collections.Generic;
+#if UNITY_EDITOR
 using UnityEditor;
+#endif
 
 
 // Part of this script, basically the exporting math bits, were derived from Gregorio Zanon's script
