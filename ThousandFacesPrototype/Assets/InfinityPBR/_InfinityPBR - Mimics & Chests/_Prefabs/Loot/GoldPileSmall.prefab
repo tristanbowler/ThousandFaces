@@ -1,0 +1,313 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &142690
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 433530}
+  - 137: {fileID: 13788808}
+  - 95: {fileID: 9581614}
+  - 114: {fileID: 11455284}
+  m_Layer: 0
+  m_Name: GoldPileSmall
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &433530
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 142690}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!95 &9581614
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 142690}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 8b5c23a678342485ca07bef39c667fc3, type: 3}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 1
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &11455284
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 142690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bfaf1597b76048bea58100f2805dca0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blendShapeObjects:
+  - name: GoldPileSmall
+    object: {fileID: 4300000, guid: 8b5c23a678342485ca07bef39c667fc3, type: 3}
+    renderer: {fileID: 13788808}
+    blendShapes:
+    - name: IrregularPlus
+      fullName: SFB_BS_IrregularPlus
+      isMinus: 0
+      isPlus: 1
+      inspectorID: 0
+      id: 0
+      minValue: 0
+      maxValue: 0
+      value: 0
+      sliderValue: 0
+      changeDuration: 0
+      isVisible: 1
+      blendMatches: []
+      presetExport: 1
+      presetExportValue: 1
+    - name: IrregularMinus
+      fullName: SFB_BS_IrregularMinus
+      isMinus: 1
+      isPlus: 0
+      inspectorID: 0
+      id: 1
+      minValue: 0
+      maxValue: 0
+      value: 0
+      sliderValue: 0
+      changeDuration: 0
+      isVisible: 0
+      blendMatches: []
+      presetExport: 1
+      presetExportValue: 1
+    - name: PeakRoundPlus
+      fullName: SFB_BS_PeakRoundPlus
+      isMinus: 0
+      isPlus: 1
+      inspectorID: 1
+      id: 2
+      minValue: 0
+      maxValue: 0
+      value: 0
+      sliderValue: 0
+      changeDuration: 0
+      isVisible: 1
+      blendMatches: []
+      presetExport: 1
+      presetExportValue: 1
+    - name: PeakRoundMinus
+      fullName: SFB_BS_PeakRoundMinus
+      isMinus: 1
+      isPlus: 0
+      inspectorID: 0
+      id: 3
+      minValue: 0
+      maxValue: 0
+      value: 0
+      sliderValue: 0
+      changeDuration: 0
+      isVisible: 0
+      blendMatches: []
+      presetExport: 1
+      presetExportValue: 1
+    - name: PeakSharp
+      fullName: SFB_BS_PeakSharp
+      isMinus: 0
+      isPlus: 0
+      inspectorID: 2
+      id: 4
+      minValue: 0
+      maxValue: 0
+      value: 0
+      sliderValue: 0
+      changeDuration: 0
+      isVisible: 1
+      blendMatches: []
+      presetExport: 1
+      presetExportValue: 1
+    - name: HideLargeObjects
+      fullName: SFB_BS_HideLargeObjects
+      isMinus: 0
+      isPlus: 0
+      inspectorID: 3
+      id: 5
+      minValue: 0
+      maxValue: 0
+      value: 0
+      sliderValue: 0
+      changeDuration: 0
+      isVisible: 1
+      blendMatches: []
+      presetExport: 1
+      presetExportValue: 1
+    - name: HideSmallObjects
+      fullName: SFB_BS_HideSmallObjects
+      isMinus: 0
+      isPlus: 0
+      inspectorID: 4
+      id: 6
+      minValue: 0
+      maxValue: 0
+      value: 0
+      sliderValue: 0
+      changeDuration: 0
+      isVisible: 1
+      blendMatches: []
+      presetExport: 1
+      presetExportValue: 1
+    - name: WidthPlus
+      fullName: SFB_BS_WidthPlus
+      isMinus: 0
+      isPlus: 1
+      inspectorID: 5
+      id: 7
+      minValue: 0
+      maxValue: 0
+      value: 0
+      sliderValue: 0
+      changeDuration: 0
+      isVisible: 1
+      blendMatches: []
+      presetExport: 1
+      presetExportValue: 1
+    - name: WidthMinus
+      fullName: SFB_BS_WidthMinus
+      isMinus: 1
+      isPlus: 0
+      inspectorID: 0
+      id: 8
+      minValue: 0
+      maxValue: 0
+      value: 0
+      sliderValue: 0
+      changeDuration: 0
+      isVisible: 0
+      blendMatches: []
+      presetExport: 1
+      presetExportValue: 1
+    - name: LinearHeight
+      fullName: SFB_BS_LinearHeight
+      isMinus: 0
+      isPlus: 0
+      inspectorID: 6
+      id: 9
+      minValue: 0
+      maxValue: 0
+      value: 0
+      sliderValue: 0
+      changeDuration: 0
+      isVisible: 1
+      blendMatches: []
+      presetExport: 1
+      presetExportValue: 1
+    - name: NonRectangularChestShape
+      fullName: SFB_BS_NonRectangularChestShape
+      isMinus: 0
+      isPlus: 0
+      inspectorID: 7
+      id: 10
+      minValue: 0
+      maxValue: 0
+      value: 0
+      sliderValue: 0
+      changeDuration: 0
+      isVisible: 1
+      blendMatches: []
+      presetExport: 1
+      presetExportValue: 1
+    primaryShapes: 11
+    expandedInspector: 0
+  inspectorObjects:
+  - objectID: 0
+    shapeID: 0
+    blendShapeID: 0
+  - objectID: 0
+    shapeID: 2
+    blendShapeID: 2
+  - objectID: 0
+    shapeID: 4
+    blendShapeID: 4
+  - objectID: 0
+    shapeID: 5
+    blendShapeID: 5
+  - objectID: 0
+    shapeID: 6
+    blendShapeID: 6
+  - objectID: 0
+    shapeID: 7
+    blendShapeID: 7
+  - objectID: 0
+    shapeID: 9
+    blendShapeID: 9
+  - objectID: 0
+    shapeID: 10
+    blendShapeID: 10
+  presetObjects: []
+  demoSliders: []
+  wireframeHidden: 1
+  presetName: 
+  showPresets: 0
+  showShapes: 0
+  showData: 0
+  showScripting: 0
+--- !u!137 &13788808
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 142690}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 6d253accfe388417584fa38eb3a92e79, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 1
+  m_Mesh: {fileID: 4300000, guid: 8b5c23a678342485ca07bef39c667fc3, type: 3}
+  m_Bones: []
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 0}
+  m_AABB:
+    m_Center: {x: 0.0030489564, y: 0.3122572, z: -0.0000014826655}
+    m_Extent: {x: 0.4919896, y: 0.5704545, z: 0.23737007}
+  m_DirtyAABB: 0
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 142690}
+  m_IsPrefabParent: 1

@@ -1,0 +1,1693 @@
+fileFormatVersion: 2
+guid: a8a32c8be887e2845bc3bfb52c727b9e
+timeCreated: 1466700397
+licenseType: Store
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: Eye_jnt
+    100002: L_handle_jnt
+    100004: Latch_jnt
+    100006: Lid_jnt
+    100008: //RootNode
+    100010: R_handle_jnt
+    100012: ROOT
+    100014: Tongue1_jnt
+    100016: Tongue2_jnt
+    100018: Tongue3_jnt
+    100020: Tongue4_jnt
+    100022: Tongue5_jnt
+    100024: Tongue6_jnt
+    100026: Tongue7_jnt
+    100028: Tongue8_jnt
+    100030: Tongue9_jnt
+    400000: Eye_jnt
+    400002: L_handle_jnt
+    400004: Latch_jnt
+    400006: Lid_jnt
+    400008: //RootNode
+    400010: R_handle_jnt
+    400012: ROOT
+    400014: Tongue1_jnt
+    400016: Tongue2_jnt
+    400018: Tongue3_jnt
+    400020: Tongue4_jnt
+    400022: Tongue5_jnt
+    400024: Tongue6_jnt
+    400026: Tongue7_jnt
+    400028: Tongue8_jnt
+    400030: Tongue9_jnt
+    7400000: open
+    7400002: idle
+    7400004: idle break
+    7400006: walk
+    7400008: walk backwards
+    7400010: block start
+    7400012: block loop
+    7400014: block end
+    7400016: hit reaction
+    7400018: attack1
+    7400020: attack2
+    7400022: cast start
+    7400024: cast loop
+    7400026: cast end
+    7400028: death
+    7400030: shut
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: open
+      takeName: Take 001
+      firstFrame: 10
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.52917504
+        functionName: PlayAudio
+        data: WalkWood
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.80080485
+        functionName: PlayAudio
+        data: WalkWood
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0
+        functionName: PlayAudio
+        data: OpenHeavyWoodFast
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.6197183
+        functionName: PlayAudio
+        data: HandlesWood
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.9758551
+        functionName: PlayAudio
+        data: HandlesWood
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: ROOT
+        weight: 1
+      - path: ROOT/Eye_jnt
+        weight: 1
+      - path: ROOT/L_handle_jnt
+        weight: 1
+      - path: ROOT/Lid_jnt
+        weight: 1
+      - path: ROOT/Lid_jnt/Latch_jnt
+        weight: 1
+      - path: ROOT/R_handle_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt/Tongue8_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt/Tongue8_jnt/Tongue9_jnt
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle
+      takeName: Take 001
+      firstFrame: 35
+      lastFrame: 55
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.3299187
+        functionName: PlayAudio
+        data: HissingIdle
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: ROOT
+        weight: 1
+      - path: ROOT/Eye_jnt
+        weight: 1
+      - path: ROOT/L_handle_jnt
+        weight: 1
+      - path: ROOT/Lid_jnt
+        weight: 1
+      - path: ROOT/Lid_jnt/Latch_jnt
+        weight: 1
+      - path: ROOT/R_handle_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt/Tongue8_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt/Tongue8_jnt/Tongue9_jnt
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle break
+      takeName: Take 001
+      firstFrame: 60
+      lastFrame: 130
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.2193159
+        functionName: PlayAudio
+        data: WalkWood
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.31388333
+        functionName: PlayAudio
+        data: WalkWood
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.71629786
+        functionName: PlayAudio
+        data: WalkWood
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.7967807
+        functionName: PlayAudio
+        data: WalkWood
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.1287726
+        functionName: PlayAudio
+        data: TongueFlap
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.0060361866
+        functionName: PlayAudio
+        data: Grunting
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.18511064
+        functionName: PlayAudio
+        data: SnapShut
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.47686118
+        functionName: PlayAudio
+        data: OpenHeavyWoodFast
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.64989936
+        functionName: PlayAudio
+        data: TongueFlap
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.75251514
+        functionName: PlayAudio
+        data: TongueFlap
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.26156944
+        functionName: PlayAudio
+        data: HandlesWood
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.3561368
+        functionName: PlayAudio
+        data: HandlesWood
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.74647886
+        functionName: PlayAudio
+        data: HandlesWood
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.8410463
+        functionName: PlayAudio
+        data: HandlesWood
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: ROOT
+        weight: 1
+      - path: ROOT/Eye_jnt
+        weight: 1
+      - path: ROOT/L_handle_jnt
+        weight: 1
+      - path: ROOT/Lid_jnt
+        weight: 1
+      - path: ROOT/Lid_jnt/Latch_jnt
+        weight: 1
+      - path: ROOT/R_handle_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt/Tongue8_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt/Tongue8_jnt/Tongue9_jnt
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: walk
+      takeName: Take 001
+      firstFrame: 135
+      lastFrame: 155
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.60160947
+        functionName: PlayAudio
+        data: WalkWood
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.002011871
+        functionName: PlayAudio
+        data: WalkWood
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.15291764
+        functionName: PlayAudio
+        data: TongueFlap
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.5814891
+        functionName: PlayAudio
+        data: TongueFlap
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.89335996
+        functionName: PlayAudio
+        data: GruntingIdle
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.09255522
+        functionName: PlayAudio
+        data: HandlesWood
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.6941647
+        functionName: PlayAudio
+        data: HandlesWood
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: ROOT
+        weight: 1
+      - path: ROOT/Eye_jnt
+        weight: 1
+      - path: ROOT/L_handle_jnt
+        weight: 1
+      - path: ROOT/Lid_jnt
+        weight: 1
+      - path: ROOT/Lid_jnt/Latch_jnt
+        weight: 1
+      - path: ROOT/R_handle_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt/Tongue8_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt/Tongue8_jnt/Tongue9_jnt
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: walk backwards
+      takeName: Take 001
+      firstFrame: 160
+      lastFrame: 180
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.59758574
+        functionName: PlayAudio
+        data: WalkWood
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.006036185
+        functionName: PlayAudio
+        data: WalkWood
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.41649905
+        functionName: PlayAudio
+        data: TongueFlap
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.11267622
+        functionName: PlayAudio
+        data: GruntingIdle
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.6941647
+        functionName: PlayAudio
+        data: HandlesWood
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.96780664
+        functionName: PlayAudio
+        data: HandlesWood
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: ROOT
+        weight: 1
+      - path: ROOT/Eye_jnt
+        weight: 1
+      - path: ROOT/L_handle_jnt
+        weight: 1
+      - path: ROOT/Lid_jnt
+        weight: 1
+      - path: ROOT/Lid_jnt/Latch_jnt
+        weight: 1
+      - path: ROOT/R_handle_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt/Tongue8_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt/Tongue8_jnt/Tongue9_jnt
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: block start
+      takeName: Take 001
+      firstFrame: 185
+      lastFrame: 195
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.2676053
+        functionName: PlayAudio
+        data: SnapShut
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.59356177
+        functionName: PlayAudio
+        data: HandlesWood
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: ROOT
+        weight: 1
+      - path: ROOT/Eye_jnt
+        weight: 1
+      - path: ROOT/L_handle_jnt
+        weight: 1
+      - path: ROOT/Lid_jnt
+        weight: 1
+      - path: ROOT/Lid_jnt/Latch_jnt
+        weight: 1
+      - path: ROOT/R_handle_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt/Tongue8_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt/Tongue8_jnt/Tongue9_jnt
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: block loop
+      takeName: Take 001
+      firstFrame: 196
+      lastFrame: 204
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: ROOT
+        weight: 1
+      - path: ROOT/Eye_jnt
+        weight: 1
+      - path: ROOT/L_handle_jnt
+        weight: 1
+      - path: ROOT/Lid_jnt
+        weight: 1
+      - path: ROOT/Lid_jnt/Latch_jnt
+        weight: 1
+      - path: ROOT/R_handle_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt/Tongue8_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt/Tongue8_jnt/Tongue9_jnt
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: block end
+      takeName: Take 001
+      firstFrame: 205
+      lastFrame: 220
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.5613678
+        functionName: PlayAudio
+        data: WalkWood
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.69617766
+        functionName: PlayAudio
+        data: WalkWood
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.04828949
+        functionName: PlayAudio
+        data: OpenHeavyWoodMedium
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.68611604
+        functionName: PlayAudio
+        data: HandlesWood
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: ROOT
+        weight: 1
+      - path: ROOT/Eye_jnt
+        weight: 1
+      - path: ROOT/L_handle_jnt
+        weight: 1
+      - path: ROOT/Lid_jnt
+        weight: 1
+      - path: ROOT/Lid_jnt/Latch_jnt
+        weight: 1
+      - path: ROOT/R_handle_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt/Tongue8_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt/Tongue8_jnt/Tongue9_jnt
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: hit reaction
+      takeName: Take 001
+      firstFrame: 225
+      lastFrame: 245
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.30784732
+        functionName: PlayAudio
+        data: WalkWood
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.921529
+        functionName: PlayAudio
+        data: WalkWood
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.12676053
+        functionName: PlayAudio
+        data: SnapShut
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.12676053
+        functionName: PlayAudio
+        data: Grunting
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.12676053
+        functionName: PlayAudio
+        data: Hissing
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.28571445
+        functionName: PlayAudio
+        data: TongueFlap
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.84305793
+        functionName: PlayAudio
+        data: TongueFlap
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.75452757
+        functionName: PlayAudio
+        data: Hissing
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.33802772
+        functionName: PlayAudio
+        data: HandlesWood
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.6016093
+        functionName: PlayAudio
+        data: HandlesWood
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.96378285
+        functionName: PlayAudio
+        data: HandlesWood
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: ROOT
+        weight: 1
+      - path: ROOT/Eye_jnt
+        weight: 1
+      - path: ROOT/L_handle_jnt
+        weight: 1
+      - path: ROOT/Lid_jnt
+        weight: 1
+      - path: ROOT/Lid_jnt/Latch_jnt
+        weight: 1
+      - path: ROOT/R_handle_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt/Tongue8_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt/Tongue8_jnt/Tongue9_jnt
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: attack1
+      takeName: Take 001
+      firstFrame: 250
+      lastFrame: 270
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.55331975
+        functionName: PlayAudio
+        data: WalkWood
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.8531185
+        functionName: PlayAudio
+        data: WalkWood
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.24748544
+        functionName: PlayAudio
+        data: SnapShut
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.6664824
+        functionName: PlayAudio
+        data: Grunting
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.64587504
+        functionName: PlayAudio
+        data: HandlesWood
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: ROOT
+        weight: 1
+      - path: ROOT/Eye_jnt
+        weight: 1
+      - path: ROOT/L_handle_jnt
+        weight: 1
+      - path: ROOT/Lid_jnt
+        weight: 1
+      - path: ROOT/Lid_jnt/Latch_jnt
+        weight: 1
+      - path: ROOT/R_handle_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt/Tongue8_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt/Tongue8_jnt/Tongue9_jnt
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: attack2
+      takeName: Take 001
+      firstFrame: 275
+      lastFrame: 305
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.23138809
+        functionName: PlayAudio
+        data: WalkWood
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.6720322
+        functionName: PlayAudio
+        data: WalkWood
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.843058
+        functionName: PlayAudio
+        data: WalkWood
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.44869232
+        functionName: PlayAudio
+        data: SnapShut
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.088531494
+        functionName: PlayAudio
+        data: Grunting
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.7484909
+        functionName: PlayAudio
+        data: HandlesWood
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: ROOT
+        weight: 1
+      - path: ROOT/Eye_jnt
+        weight: 1
+      - path: ROOT/L_handle_jnt
+        weight: 1
+      - path: ROOT/Lid_jnt
+        weight: 1
+      - path: ROOT/Lid_jnt/Latch_jnt
+        weight: 1
+      - path: ROOT/R_handle_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt/Tongue8_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt/Tongue8_jnt/Tongue9_jnt
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: cast start
+      takeName: Take 001
+      firstFrame: 310
+      lastFrame: 315
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.9827957
+        functionName: StartLoop
+        data: CastWarmup
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.7424526
+        functionName: StartWarmup
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: ROOT
+        weight: 1
+      - path: ROOT/Eye_jnt
+        weight: 1
+      - path: ROOT/L_handle_jnt
+        weight: 1
+      - path: ROOT/Lid_jnt
+        weight: 1
+      - path: ROOT/Lid_jnt/Latch_jnt
+        weight: 1
+      - path: ROOT/R_handle_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt/Tongue8_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt/Tongue8_jnt/Tongue9_jnt
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: cast loop
+      takeName: Take 001
+      firstFrame: 315
+      lastFrame: 340
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.90945715
+        functionName: PlayAudio
+        data: WalkWood
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.24547295
+        functionName: PlayAudio
+        data: HandlesWood
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.9718311
+        functionName: PlayAudio
+        data: HandlesWood
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: ROOT
+        weight: 1
+      - path: ROOT/Eye_jnt
+        weight: 1
+      - path: ROOT/L_handle_jnt
+        weight: 1
+      - path: ROOT/Lid_jnt
+        weight: 1
+      - path: ROOT/Lid_jnt/Latch_jnt
+        weight: 1
+      - path: ROOT/R_handle_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt/Tongue8_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt/Tongue8_jnt/Tongue9_jnt
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: cast end
+      takeName: Take 001
+      firstFrame: 340
+      lastFrame: 375
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.06519275
+        functionName: StartCast
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.89016414
+        functionName: StopCast
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.98792744
+        functionName: PlayAudio
+        data: WalkWood
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0
+        functionName: StopLoop
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.203219
+        functionName: PlayAudio
+        data: Grunting
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.203219
+        functionName: PlayAudio
+        data: Hissing
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.84603375
+        functionName: PlayAudio
+        data: Hissing
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.14285696
+        functionName: PlayAudio
+        data: Cast
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: ROOT
+        weight: 1
+      - path: ROOT/Eye_jnt
+        weight: 1
+      - path: ROOT/L_handle_jnt
+        weight: 1
+      - path: ROOT/Lid_jnt
+        weight: 1
+      - path: ROOT/Lid_jnt/Latch_jnt
+        weight: 1
+      - path: ROOT/R_handle_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt/Tongue8_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt/Tongue8_jnt/Tongue9_jnt
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: death
+      takeName: Take 001
+      firstFrame: 380
+      lastFrame: 450
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.16901384
+        functionName: PlayAudio
+        data: WalkWood
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.29979888
+        functionName: PlayAudio
+        data: WalkWood
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.47082525
+        functionName: PlayAudio
+        data: WalkWood
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.008048139
+        functionName: PlayAudio
+        data: Death
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.18108639
+        functionName: PlayAudio
+        data: HandlesWood
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.2434606
+        functionName: PlayAudio
+        data: HandlesWood
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.31991956
+        functionName: PlayAudio
+        data: HandlesWood
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.5030178
+        functionName: PlayAudio
+        data: HandlesWood
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.5875249
+        functionName: PlayAudio
+        data: HandlesWood
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: ROOT
+        weight: 1
+      - path: ROOT/Eye_jnt
+        weight: 1
+      - path: ROOT/L_handle_jnt
+        weight: 1
+      - path: ROOT/Lid_jnt
+        weight: 1
+      - path: ROOT/Lid_jnt/Latch_jnt
+        weight: 1
+      - path: ROOT/R_handle_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt/Tongue8_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt/Tongue8_jnt/Tongue9_jnt
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: shut
+      takeName: Take 001
+      firstFrame: 455
+      lastFrame: 500
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.098591104
+        functionName: PlayAudio
+        data: TongueFlap
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.23138835
+        functionName: PlayAudio
+        data: Hissing
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.6054393
+        functionName: PlayAudio
+        data: CloseHeavyWoodFast
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: ROOT
+        weight: 1
+      - path: ROOT/Eye_jnt
+        weight: 1
+      - path: ROOT/L_handle_jnt
+        weight: 1
+      - path: ROOT/Lid_jnt
+        weight: 1
+      - path: ROOT/Lid_jnt/Latch_jnt
+        weight: 1
+      - path: ROOT/R_handle_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt/Tongue8_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt/Tongue8_jnt/Tongue9_jnt
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: ROOT
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

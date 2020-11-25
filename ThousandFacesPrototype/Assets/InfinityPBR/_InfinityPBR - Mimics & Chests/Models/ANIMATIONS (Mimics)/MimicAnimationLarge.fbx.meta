@@ -1,0 +1,1080 @@
+fileFormatVersion: 2
+guid: d34f4ca5a9bed49d59954cf89297abf7
+timeCreated: 1467328559
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Eye_jnt
+    100002: L_handle_jnt
+    100004: Latch_jnt
+    100006: Lid_jnt
+    100008: //RootNode
+    100010: R_handle_jnt
+    100012: ROOT
+    100014: Tongue1_jnt
+    100016: Tongue2_jnt
+    100018: Tongue3_jnt
+    100020: Tongue4_jnt
+    100022: Tongue5_jnt
+    100024: Tongue6_jnt
+    100026: Tongue7_jnt
+    100028: Tongue8_jnt
+    100030: Tongue9_jnt
+    400000: Eye_jnt
+    400002: L_handle_jnt
+    400004: Latch_jnt
+    400006: Lid_jnt
+    400008: //RootNode
+    400010: R_handle_jnt
+    400012: ROOT
+    400014: Tongue1_jnt
+    400016: Tongue2_jnt
+    400018: Tongue3_jnt
+    400020: Tongue4_jnt
+    400022: Tongue5_jnt
+    400024: Tongue6_jnt
+    400026: Tongue7_jnt
+    400028: Tongue8_jnt
+    400030: Tongue9_jnt
+    7400000: open
+    7400002: idle
+    7400004: idle break
+    7400006: walk
+    7400008: walk backwards
+    7400010: block start
+    7400012: block loop
+    7400014: block end
+    7400016: hit reaction
+    7400018: attack1
+    7400020: attack2
+    7400022: cast start
+    7400024: cast loop
+    7400026: cast end
+    7400028: death
+    7400030: shut
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: open
+      takeName: Take 001
+      firstFrame: 10
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: ROOT
+        weight: 1
+      - path: ROOT/Eye_jnt
+        weight: 1
+      - path: ROOT/L_handle_jnt
+        weight: 1
+      - path: ROOT/Lid_jnt
+        weight: 1
+      - path: ROOT/Lid_jnt/Latch_jnt
+        weight: 1
+      - path: ROOT/R_handle_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt/Tongue8_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt/Tongue8_jnt/Tongue9_jnt
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle
+      takeName: Take 001
+      firstFrame: 35
+      lastFrame: 55
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: ROOT
+        weight: 1
+      - path: ROOT/Eye_jnt
+        weight: 1
+      - path: ROOT/L_handle_jnt
+        weight: 1
+      - path: ROOT/Lid_jnt
+        weight: 1
+      - path: ROOT/Lid_jnt/Latch_jnt
+        weight: 1
+      - path: ROOT/R_handle_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt/Tongue8_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt/Tongue8_jnt/Tongue9_jnt
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle break
+      takeName: Take 001
+      firstFrame: 60
+      lastFrame: 130
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: ROOT
+        weight: 1
+      - path: ROOT/Eye_jnt
+        weight: 1
+      - path: ROOT/L_handle_jnt
+        weight: 1
+      - path: ROOT/Lid_jnt
+        weight: 1
+      - path: ROOT/Lid_jnt/Latch_jnt
+        weight: 1
+      - path: ROOT/R_handle_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt/Tongue8_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt/Tongue8_jnt/Tongue9_jnt
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: walk
+      takeName: Take 001
+      firstFrame: 135
+      lastFrame: 155
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: ROOT
+        weight: 1
+      - path: ROOT/Eye_jnt
+        weight: 1
+      - path: ROOT/L_handle_jnt
+        weight: 1
+      - path: ROOT/Lid_jnt
+        weight: 1
+      - path: ROOT/Lid_jnt/Latch_jnt
+        weight: 1
+      - path: ROOT/R_handle_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt/Tongue8_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt/Tongue8_jnt/Tongue9_jnt
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: walk backwards
+      takeName: Take 001
+      firstFrame: 160
+      lastFrame: 180
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: ROOT
+        weight: 1
+      - path: ROOT/Eye_jnt
+        weight: 1
+      - path: ROOT/L_handle_jnt
+        weight: 1
+      - path: ROOT/Lid_jnt
+        weight: 1
+      - path: ROOT/Lid_jnt/Latch_jnt
+        weight: 1
+      - path: ROOT/R_handle_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt/Tongue8_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt/Tongue8_jnt/Tongue9_jnt
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: block start
+      takeName: Take 001
+      firstFrame: 185
+      lastFrame: 195
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: ROOT
+        weight: 1
+      - path: ROOT/Eye_jnt
+        weight: 1
+      - path: ROOT/L_handle_jnt
+        weight: 1
+      - path: ROOT/Lid_jnt
+        weight: 1
+      - path: ROOT/Lid_jnt/Latch_jnt
+        weight: 1
+      - path: ROOT/R_handle_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt/Tongue8_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt/Tongue8_jnt/Tongue9_jnt
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: block loop
+      takeName: Take 001
+      firstFrame: 196
+      lastFrame: 204
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: ROOT
+        weight: 1
+      - path: ROOT/Eye_jnt
+        weight: 1
+      - path: ROOT/L_handle_jnt
+        weight: 1
+      - path: ROOT/Lid_jnt
+        weight: 1
+      - path: ROOT/Lid_jnt/Latch_jnt
+        weight: 1
+      - path: ROOT/R_handle_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt/Tongue8_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt/Tongue8_jnt/Tongue9_jnt
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: block end
+      takeName: Take 001
+      firstFrame: 205
+      lastFrame: 220
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: ROOT
+        weight: 1
+      - path: ROOT/Eye_jnt
+        weight: 1
+      - path: ROOT/L_handle_jnt
+        weight: 1
+      - path: ROOT/Lid_jnt
+        weight: 1
+      - path: ROOT/Lid_jnt/Latch_jnt
+        weight: 1
+      - path: ROOT/R_handle_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt/Tongue8_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt/Tongue8_jnt/Tongue9_jnt
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: hit reaction
+      takeName: Take 001
+      firstFrame: 225
+      lastFrame: 245
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: ROOT
+        weight: 1
+      - path: ROOT/Eye_jnt
+        weight: 1
+      - path: ROOT/L_handle_jnt
+        weight: 1
+      - path: ROOT/Lid_jnt
+        weight: 1
+      - path: ROOT/Lid_jnt/Latch_jnt
+        weight: 1
+      - path: ROOT/R_handle_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt/Tongue8_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt/Tongue8_jnt/Tongue9_jnt
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: attack1
+      takeName: Take 001
+      firstFrame: 250
+      lastFrame: 270
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: ROOT
+        weight: 1
+      - path: ROOT/Eye_jnt
+        weight: 1
+      - path: ROOT/L_handle_jnt
+        weight: 1
+      - path: ROOT/Lid_jnt
+        weight: 1
+      - path: ROOT/Lid_jnt/Latch_jnt
+        weight: 1
+      - path: ROOT/R_handle_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt/Tongue8_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt/Tongue8_jnt/Tongue9_jnt
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: attack2
+      takeName: Take 001
+      firstFrame: 275
+      lastFrame: 305
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: ROOT
+        weight: 1
+      - path: ROOT/Eye_jnt
+        weight: 1
+      - path: ROOT/L_handle_jnt
+        weight: 1
+      - path: ROOT/Lid_jnt
+        weight: 1
+      - path: ROOT/Lid_jnt/Latch_jnt
+        weight: 1
+      - path: ROOT/R_handle_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt/Tongue8_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt/Tongue8_jnt/Tongue9_jnt
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: cast start
+      takeName: Take 001
+      firstFrame: 310
+      lastFrame: 315
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: ROOT
+        weight: 1
+      - path: ROOT/Eye_jnt
+        weight: 1
+      - path: ROOT/L_handle_jnt
+        weight: 1
+      - path: ROOT/Lid_jnt
+        weight: 1
+      - path: ROOT/Lid_jnt/Latch_jnt
+        weight: 1
+      - path: ROOT/R_handle_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt/Tongue8_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt/Tongue8_jnt/Tongue9_jnt
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: cast loop
+      takeName: Take 001
+      firstFrame: 315
+      lastFrame: 340
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: ROOT
+        weight: 1
+      - path: ROOT/Eye_jnt
+        weight: 1
+      - path: ROOT/L_handle_jnt
+        weight: 1
+      - path: ROOT/Lid_jnt
+        weight: 1
+      - path: ROOT/Lid_jnt/Latch_jnt
+        weight: 1
+      - path: ROOT/R_handle_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt/Tongue8_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt/Tongue8_jnt/Tongue9_jnt
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: cast end
+      takeName: Take 001
+      firstFrame: 340
+      lastFrame: 375
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: ROOT
+        weight: 1
+      - path: ROOT/Eye_jnt
+        weight: 1
+      - path: ROOT/L_handle_jnt
+        weight: 1
+      - path: ROOT/Lid_jnt
+        weight: 1
+      - path: ROOT/Lid_jnt/Latch_jnt
+        weight: 1
+      - path: ROOT/R_handle_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt/Tongue8_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt/Tongue8_jnt/Tongue9_jnt
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: death
+      takeName: Take 001
+      firstFrame: 380
+      lastFrame: 450
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: ROOT
+        weight: 1
+      - path: ROOT/Eye_jnt
+        weight: 1
+      - path: ROOT/L_handle_jnt
+        weight: 1
+      - path: ROOT/Lid_jnt
+        weight: 1
+      - path: ROOT/Lid_jnt/Latch_jnt
+        weight: 1
+      - path: ROOT/R_handle_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt/Tongue8_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt/Tongue8_jnt/Tongue9_jnt
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: shut
+      takeName: Take 001
+      firstFrame: 455
+      lastFrame: 500
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: ROOT
+        weight: 1
+      - path: ROOT/Eye_jnt
+        weight: 1
+      - path: ROOT/L_handle_jnt
+        weight: 1
+      - path: ROOT/Lid_jnt
+        weight: 1
+      - path: ROOT/Lid_jnt/Latch_jnt
+        weight: 1
+      - path: ROOT/R_handle_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt/Tongue8_jnt
+        weight: 1
+      - path: ROOT/Tongue1_jnt/Tongue2_jnt/Tongue3_jnt/Tongue4_jnt/Tongue5_jnt/Tongue6_jnt/Tongue7_jnt/Tongue8_jnt/Tongue9_jnt
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: ROOT
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

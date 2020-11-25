@@ -1,0 +1,180 @@
+fileFormatVersion: 2
+guid: 1663d271c1a00264fb5d6178b351f6db
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: ChestMidLevelSmall_Box
+    100002: ChestMidLevelSmall_Latch
+    100004: ChestMidLevelSmall_Lid
+    100006: Eye_jnt
+    100008: L_handle_jnt
+    100010: Latch_jnt
+    100012: Lid_jnt
+    100014: //RootNode
+    100016: MimicSmall_Box
+    100018: MimicSmall_Lid
+    100020: MimicSmall_LowerTeeth_group1
+    100022: MimicSmall_LowerTeeth_group2
+    100024: MimicSmall_Tongue
+    100026: MimicSmall_UpperTeeth_group1
+    100028: MimicSmall_UpperTeeth_group2
+    100030: R_handle_jnt
+    100032: ROOT
+    100034: Tongue1_jnt
+    100036: Tongue2_jnt
+    100038: Tongue3_jnt
+    100040: Tongue4_jnt
+    100042: Tongue5_jnt
+    100044: Tongue6_jnt
+    100046: Tongue7_jnt
+    100048: Tongue8_jnt
+    100050: Tongue9_jnt
+    400000: ChestMidLevelSmall_Box
+    400002: ChestMidLevelSmall_Latch
+    400004: ChestMidLevelSmall_Lid
+    400006: Eye_jnt
+    400008: L_handle_jnt
+    400010: Latch_jnt
+    400012: Lid_jnt
+    400014: //RootNode
+    400016: MimicSmall_Box
+    400018: MimicSmall_Lid
+    400020: MimicSmall_LowerTeeth_group1
+    400022: MimicSmall_LowerTeeth_group2
+    400024: MimicSmall_Tongue
+    400026: MimicSmall_UpperTeeth_group1
+    400028: MimicSmall_UpperTeeth_group2
+    400030: R_handle_jnt
+    400032: ROOT
+    400034: Tongue1_jnt
+    400036: Tongue2_jnt
+    400038: Tongue3_jnt
+    400040: Tongue4_jnt
+    400042: Tongue5_jnt
+    400044: Tongue6_jnt
+    400046: Tongue7_jnt
+    400048: Tongue8_jnt
+    400050: Tongue9_jnt
+    4300000: ChestMidLevelSmall_Box
+    4300002: ChestMidLevelSmall_Lid
+    4300004: ChestMidLevelSmall_Latch
+    4300006: MimicSmall_Lid
+    4300008: MimicSmall_Tongue
+    4300010: MimicSmall_Box
+    4300012: MimicSmall_LowerTeeth_group1
+    4300014: MimicSmall_LowerTeeth_group2
+    4300016: MimicSmall_UpperTeeth_group1
+    4300018: MimicSmall_UpperTeeth_group2
+    9500000: //RootNode
+    13700000: ChestMidLevelSmall_Box
+    13700002: ChestMidLevelSmall_Latch
+    13700004: ChestMidLevelSmall_Lid
+    13700006: MimicSmall_Box
+    13700008: MimicSmall_Lid
+    13700010: MimicSmall_LowerTeeth_group1
+    13700012: MimicSmall_LowerTeeth_group2
+    13700014: MimicSmall_Tongue
+    13700016: MimicSmall_UpperTeeth_group1
+    13700018: MimicSmall_UpperTeeth_group2
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ChestMidLevelSmall_MAT
+    second: {fileID: 2100000, guid: 41fcd628d7b764cb69734fd778777e7a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MimicTeeth_MAT
+    second: {fileID: 2100000, guid: f83848bde06a24cc888f3f64e65e546a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mimic_MAT
+    second: {fileID: 2100000, guid: b615e7a78e298464ba1a851ab6f11ee6, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: ROOT
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

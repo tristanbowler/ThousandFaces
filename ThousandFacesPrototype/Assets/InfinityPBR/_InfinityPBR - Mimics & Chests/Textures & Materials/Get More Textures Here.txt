@@ -1,0 +1,5 @@
+Each complete Texture Set (when converted to PNG and without emissive or height maps) takes about 250MB of space.  Because of this, we aren’t able to include them all in the Asset Store download.  There are more available here:
+
+http://www.InfinityPBR.com
+
+It does require quick email registration and verification, but once you put in your Invoice# from Unity, you’ll be able to download the files.  You’ll also find more base materials which you can use in your creations.
